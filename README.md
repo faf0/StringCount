@@ -21,12 +21,12 @@ AAA = 1 * 26^2 + 1 * 26 + 1 = 703
 Relationship between String Length and Number of Digits
 -------------------------------------------------------
 
-Let s := s\_ls\_\{l-1\}...s\_2s\_1 where 1 &lt;= s\_i be a string over the
-alphabet A-Z with length l.
+Let s := s\_ls\_\{l-1\}...s\_2s\_1 where A &lt;= s\_i &lt;= Z be a string over
+the alphabet A-Z with length l.
 
 For the integer representations a\_i of s\_i, it holds that:
 
-	1 <= a_i <= 26 where 1 &lt;= i &lt;= l
+	1 <= a_i <= 26 where 1 <= i <= l
 
 Observe that the integer value a of the string s is:
 
